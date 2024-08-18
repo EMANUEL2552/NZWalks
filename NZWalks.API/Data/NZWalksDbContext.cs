@@ -24,6 +24,7 @@ namespace NZWalks.API.Data
 		protected override void OnModelCreating(ModelBuilder modelBuilder)
 		{
 			base.OnModelCreating(modelBuilder);
+			
 
 			//seed data for difficulties
 			//easy, medium, hard
