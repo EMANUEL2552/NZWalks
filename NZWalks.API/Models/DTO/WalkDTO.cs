@@ -12,8 +12,10 @@
 
 		public string? WalkImageUrl { get; set; }
 
-		public Guid DifficultyId { get; set; }
+		
 
-		public Guid RegionId { get; set; }
+		//public RegionDTO Region { get; set; }
+
+		public DifficultyDTO Difficulty { get; set; }
 	}
 }
